@@ -4,9 +4,9 @@ import cv2
 import pickle
 
 # load all models
-haar = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
-model_svm = pickle.load(open('./model_svm.pickle', mode = 'rb'))
-pca_models = pickle.load(open('./pca_dict.pickle', mode = 'rb'))
+haar = cv2.CascadeClassifier('model/haarcascade_frontalface_default.xml')
+model_svm = pickle.load(open('model/model_svm.pickle', mode = 'rb'))
+pca_models = pickle.load(open('model/pca_dict.pickle', mode = 'rb'))
 model_pca = pca_models['pca']
 mean_face_arr = pca_models['mean_face']
 

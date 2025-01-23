@@ -11,10 +11,6 @@ def index():
     return render_template('index.html')
 
 
-def app():
-    return render_template('app.html')
-
-
 def genderapp():
     if request.method == 'POST':
         f = request.files['image_name']

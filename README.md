@@ -1,6 +1,4 @@
-Here's a sample `README.md` file for your Flask web project that allows users to upload pictures and classify gender using an OpenCV-based machine learning model:
 
-```markdown
 # Gender Classification Web App
 
 ## Overview
@@ -33,6 +31,7 @@ Make sure you have Python 3.x installed on your machine. You will also need to i
    ```
    git clone https://github.com/dhirajs16/gender-classifier.git
    cd gender-classification-flask
+   
    ```
 
 2. Create a virtual environment:
